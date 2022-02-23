@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HomeFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:id="@+id/LinearL"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:background="#F6F6F6"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="34.76dp"
+                android:layout_height="47.51dp"
+                android:layout_marginLeft="39.53dp"
+                android:src="@drawable/logo" />
+
+            <EditText
+                android:layout_width="291dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/search_bar"
+                android:drawableStart="@drawable/search"
+                android:drawableEnd="@drawable/mic_24"
+                android:drawableTint="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:background="#F6F6F6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/LinearL">
+
+            <ImageView
+                android:layout_width="14.57dp"
+                android:layout_height="19.42dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="26.22dp"
+                android:src="@drawable/location_on_24"
+                app:tint="#484848" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="19dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:text="Padamukal , Kakkanad 682021"
+                android:textColor="#484848" />
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/ic_baseline_edit_24"
+                app:tint="#484848" />
+        </LinearLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="214dp"
+            android:layout_marginTop="135dp" />
+
+        <LinearLayout
+            android:id="@+id/tabL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viewPager"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal">
+
+            <me.relex.circleindicator.CircleIndicator
+                android:id="@+id/indicator"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:ci_drawable="@drawable/selected_dot"
+                app:ci_drawable_unselected="@drawable/default_dot" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtCategory"
+            android:layout_width="122dp"
+            android:layout_height="27dp"
+            android:layout_below="@id/tabL"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="Categories"
+            android:textColor="#35251E"
+            android:textSize="18dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtCategory"
+            android:orientation="horizontal">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/txtOffer"
+            android:layout_width="122dp"
+            android:layout_height="27dp"
+            android:layout_below="@id/recycleView"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="Offerzone"
+            android:textColor="#35251E"
+            android:textSize="18dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/reCycle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtOffer"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </RelativeLayout>
+</ScrollView>

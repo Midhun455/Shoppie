@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/.gradle/caches/transforms-3/9079c9694b4d4270d7cd62242948af25/transformed/appcompat-1.4.0/res/layout/support_simple_spinner_dropdown_item.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/add_cart.xml" value="0.165234375" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/bg_phone.xml" value="0.165234375" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/bg_signin.xml" value="0.165234375" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/bgbutton.xml" value="0.16574074074074074" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/btnbuy.xml" value="0.165234375" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/btncart.xml" value="0.165234375" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/cardview.xml" value="0.146875" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/cart.xml" value="0.16319444444444445" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/cartbutton.xml" value="0.16332046332046332" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/changebtn.xml" value="0.165234375" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/codbg.xml" value="0.146875" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/default_dot.xml" value="0.11388888888888889" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/details.xml" value="0.146875" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/indicator.xml" value="0.165234375" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/indicator_2.xml" value="0.165234375" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/rate_background.xml" value="0.165234375" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/search_bar.xml" value="0.165234375" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/selected_dot.xml" value="0.165234375" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/shopping_cart_24.xml" value="0.165234375" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/spinnerbg.xml" value="0.146875" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/tab_selector.xml" value="0.165234375" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/activity_address.xml" value="0.2" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/activity_completed.xml" value="0.16" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/activity_fruits_list.xml" value="0.153125" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/activity_home.xml" value="0.153125" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/activity_logo.xml" value="0.12" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/activity_main.xml" value="0.153125" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/activity_new_address.xml" value="0.18" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/activity_otpactivity.xml" value="0.16" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/activity_product.xml" value="0.2" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/activity_product_list.xml" value="0.15" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/activity_splash1.xml" value="0.12" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/activity_splash2.xml" value="0.2" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/buy_options.xml" value="0.18" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/category.xml" value="0.153125" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/fragment_blank.xml" value="0.153125" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/fragment_cart.xml" value="0.22" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/fragment_home.xml" value="0.14" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/offer.xml" value="0.153125" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/pdt_list.xml" value="0.153125" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/slide_layout.xml" value="0.153125" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/toolbar.xml" value="0.153125" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/zyx.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/menu/bottom_nav.xml" value="0.153125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

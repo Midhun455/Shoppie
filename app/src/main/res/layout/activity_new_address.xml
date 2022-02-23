@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".NewAddressActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/newAddresstBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#F6F6F6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/back"
+        app:title="Add new Address"
+        app:titleTextColor="#000000" />
+
+    <ImageView
+        android:id="@+id/imgNewAdd"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_margin="25dp"
+        android:src="@drawable/new_address"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/newAddresstBar" />
+
+    <EditText
+        android:id="@+id/PName"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="25dp"
+        android:background="@drawable/details"
+        android:gravity="start|center"
+        android:hint="Your Name"
+        android:padding="14dp"
+        android:textColorHint="#757575"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgNewAdd" />
+
+    <EditText
+        android:id="@+id/HName"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="25dp"
+        android:background="@drawable/details"
+        android:gravity="start|center"
+        android:hint="House name"
+        android:padding="14dp"
+        android:textColorHint="#757575"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/PName" />
+
+    <EditText
+        android:id="@+id/PinCode"
+        android:layout_width="146dp"
+        android:layout_height="45dp"
+        android:layout_margin="25dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/details"
+        android:gravity="start|center"
+        android:hint="PIN Code"
+        android:padding="14dp"
+        android:textColorHint="#757575"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/HName" />
+
+    <EditText
+        android:id="@+id/State"
+        android:layout_width="190dp"
+        android:layout_height="45dp"
+        android:layout_margin="25dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/details"
+        android:gravity="start|center"
+        android:hint="State"
+        android:padding="14dp"
+        android:textColorHint="#757575"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/PinCode"
+        app:layout_constraintTop_toBottomOf="@id/HName" />
+
+    <EditText
+        android:id="@+id/District"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="25dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/details"
+        android:gravity="start|center"
+        android:hint="State"
+        android:padding="14dp"
+        android:textColorHint="#757575"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/PinCode" />
+
+    <EditText
+        android:id="@+id/Landmark"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="25dp"
+        android:background="@drawable/details"
+        android:gravity="start|center"
+        android:hint="Landmark"
+        android:padding="14dp"
+        android:textColorHint="#757575"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/District"
+        tools:layout_editor_absoluteY="595dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/AddAddress"
+        android:layout_width="365dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_signin"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Save Address"
+        android:textAllCaps="false"
+        android:textColor="#E4E4E4"
+        android:textSize="16dp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Landmark" />
+</androidx.constraintlayout.widget.ConstraintLayout>

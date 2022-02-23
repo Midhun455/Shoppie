@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/LinearPayar"
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgItem"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/beans" />
+
+        <LinearLayout
+            android:id="@+id/Lineardetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/itemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:fontFamily="@font/open_sans_bold"
+                android:text="Payar"
+                android:textColor="#241A3D"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/itemPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:fontFamily="@font/open_sans"
+                android:text="Rs. 30 / Kg"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/itemCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/open_sans"
+                android:text="18-20 Nos in 1 kg"
+                android:textColor="#8662E3"
+                android:textSize="12dp" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="194dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/cartbutton"
+                android:text="Add to Cart"
+                android:textAllCaps="false"
+                android:textColor="#FF6424"
+                android:textSize="9dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
