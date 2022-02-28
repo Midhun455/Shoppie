@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.SearchView;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -26,13 +27,14 @@ public class HomeFragment extends Fragment {
     List<Fruits> fruitsList = new ArrayList<>();
     List<Offerzone> offerzoneList = new ArrayList<>();
     CustomAdapter customAdapter;
+    SearchView searchView;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_home, container, false);
-        viewPager = view.findViewById(R.id.viewPager);
         sliderDots = view.findViewById(R.id.LinearL);
+        viewPager = view.findViewById(R.id.viewPager);
         circleIndicator = view.findViewById(R.id.indicator);
         circleIndicator.createIndicators(2, 0);
         circleIndicator.animatePageSelected(0);

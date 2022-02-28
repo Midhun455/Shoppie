@@ -34,7 +34,8 @@
                 android:background="@drawable/search_bar"
                 android:drawableStart="@drawable/search"
                 android:drawableEnd="@drawable/mic_24"
-                android:drawableTint="#000000" />
+                android:drawableTint="#000000"
+                android:padding="5dp" />
         </LinearLayout>
 
         <LinearLayout

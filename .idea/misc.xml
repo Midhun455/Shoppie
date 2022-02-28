@@ -19,6 +19,7 @@
         <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/details.xml" value="0.146875" />
         <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/indicator.xml" value="0.165234375" />
         <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/indicator_2.xml" value="0.165234375" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/mic_24.xml" value="0.136" />
         <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/rate_background.xml" value="0.165234375" />
         <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/search_bar.xml" value="0.165234375" />
         <entry key="..\:/Users/user/Shoppie/app/src/main/res/drawable/selected_dot.xml" value="0.165234375" />
@@ -41,8 +42,8 @@
         <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/buy_options.xml" value="0.18" />
         <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/category.xml" value="0.153125" />
         <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/fragment_blank.xml" value="0.153125" />
-        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/fragment_cart.xml" value="0.22" />
-        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/fragment_home.xml" value="0.14" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/fragment_cart.xml" value="0.16" />
+        <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/fragment_home.xml" value="0.2" />
         <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/offer.xml" value="0.153125" />
         <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/pdt_list.xml" value="0.153125" />
         <entry key="..\:/Users/user/Shoppie/app/src/main/res/layout/slide_layout.xml" value="0.153125" />

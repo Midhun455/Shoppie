@@ -151,19 +151,21 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="match_parent"
-        android:layout_height="140dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toTopOf="@id/cardView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/address">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
             <ImageView
                 android:id="@+id/imgpea"
                 android:layout_width="140dp"
-                android:layout_height="110dp"
+                android:layout_height="100dp"
                 android:layout_margin="10dp"
                 android:layout_marginTop="16dp"
                 android:src="@drawable/beans"
@@ -176,10 +178,12 @@
                 android:id="@+id/txtpayar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="28dp"
+                android:fontFamily="@font/open_sans"
                 android:text="Payar / Achinga Payar"
                 android:textColor="#241A3D"
+                android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@id/imgpea"
@@ -191,13 +195,140 @@
                 android:layout_height="30dp"
                 android:layout_margin="10dp"
                 android:background="@drawable/spinnerbg"
+                android:elevation="10dp"
                 android:gravity="center"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.093"
                 app:layout_constraintStart_toEndOf="@id/imgpea"
                 app:layout_constraintTop_toBottomOf="@id/txtpayar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/open_sans_bold"
+                android:text="Rs. 25"
+                android:textColor="#757575"
+                android:textSize="16dp"
+                app:layout_constraintLeft_toRightOf="@id/spin"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtpayar" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:elevation="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgLadiesFinger"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/ladies_finger"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtladies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="28dp"
+                android:fontFamily="@font/open_sans"
+                android:text="Vendakkai"
+                android:textColor="#241A3D"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@id/imgLadiesFinger"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/spinn"
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/spinnerbg"
+                android:elevation="10dp"
+                android:gravity="center"
+                app:layout_constraintHorizontal_bias="0.093"
+                app:layout_constraintStart_toEndOf="@id/imgLadiesFinger"
+                app:layout_constraintTop_toBottomOf="@id/txtladies" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/open_sans_bold"
+                android:text="Rs. 28"
+                android:textColor="#757575"
+                android:textSize="16dp"
+                app:layout_constraintLeft_toRightOf="@id/spinn"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtladies" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/dcharge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Delivery Charge of Rs. 15\nApplicable for order less than 100"
+        android:textColor="#008A09"
+        android:textSize="15dp"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardView2" />
+
+    <TextView
+        android:id="@+id/rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="333dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="\u20B9 53"
+        android:textColor="#757575"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dcharge" />
+
+    <Button
+        android:id="@+id/btnPlaceOrder"
+        android:layout_width="206dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:background="#FF6424"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Place Order"
+        android:textAllCaps="false"
+        android:textColor="#E4E4E4"
+        android:textSize="14dp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@id/rate"
+        app:layout_constraintTop_toBottomOf="@id/dcharge" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
